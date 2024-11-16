@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexagon -->
+  <path d="M50 0 L93.3 25 L93.3 75 L50 100 L6.7 75 L6.7 25 Z" fill="#1B1F24"/>
+  
+  <!-- Curvy Letter S -->
+  <path d="M65 38 C65 33, 60 30, 55 30 L45 30 C40 30, 35 33, 35 38 C35 43, 40 46, 45 46 
+           L55 46 C60 46, 65 49, 65 54 C65 59, 60 62, 55 62 L45 62 C40 62, 35 59, 35 54" 
+        fill="none" 
+        stroke="#5DE6C8" 
+        stroke-width="8" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>

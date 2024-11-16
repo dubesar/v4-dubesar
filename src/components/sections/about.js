@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Java',
+    'Node.js',
+    'Python',
+    'Golang',
+    'Vue',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +144,31 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi! I'm Sarvesh, a Software Engineer at Amazon Web Services, where I work on the
+              Search team. I’m passionate about high-scale distributed systems and constantly strive
+              to deepen my knowledge in this area.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Before AWS, I worked at LambdaTest, a fast-paced startup, where I developed
+              integrations with various apps, gaining invaluable experience in building impactful
+              software solutions. Beyond my technical work, I love coaching engineers to excel in
+              FAANG interviews. I’ve conducted over 70 interviews across different experience
+              levels, helping candidates achieve their career goals.
+            </p>
+
+            <p>
+              Designing scalable, robust systems is something I truly enjoy, and I’m always eager to
+              take on challenges that push me to grow and innovate.
             </p>
 
             <p>
               I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              <a href="https://meetapro.com/listing/meet-me-587777">
+                started coaching folks on Meetapro
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              that covers everything you need to ace any FAANG interview, be it System Design, or
+              Data Structures and Algorithms
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
